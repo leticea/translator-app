@@ -79,3 +79,13 @@ body {
   transition: transform 0.2s ease;
   justify-content: center;
 }
+
+.controls .row.from .icons {
+  padding-right: 0.9375rem;
+  border-right: 1px solid #ccc;
+}
+
+.controls .row.to .icons {
+  padding-left: 0.9375rem;
+  border-left: 1px solid #ccc;
+}
