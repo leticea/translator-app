@@ -11,6 +11,10 @@
   <img alt="" src=".github/image.png">
 </p>
 
+<p align="center">
+  <img alt="" src=".github/image2.png">
+</p>
+
 ## Translator App
 
 ## 🚀 Tecnologias
