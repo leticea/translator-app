@@ -136,3 +136,16 @@ li,
 .controls i:active {
   transform: scale(0.9);
 }
+
+.container button {
+  width: 100%;
+  padding: 0.875rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1.25rem;
+  font-size: 1.0625rem;
+  border-radius: 5px;
+  background: #06283d;
+}
