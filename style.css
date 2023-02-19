@@ -56,7 +56,10 @@ body {
   color: #b7b6b6;
 }
 
-.controls, li, .icons, .icons i {
+.controls,
+li,
+.icons,
+.icons i {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,4 +91,37 @@ body {
 .controls .row.to .icons {
   padding-left: 0.9375rem;
   border-left: 1px solid #ccc;
+}
+
+.controls .row select {
+  color: #333;
+  border: none;
+  outline: none;
+  font-size: 1.125rem;
+  background: none;
+  padding-left: 0.3125rem;
+}
+
+.text-input textarea::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.controls .row select::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.text-input textarea::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 0.5rem;
+}
+
+.controls .row select::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
 }
