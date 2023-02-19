@@ -41,13 +41,41 @@ body {
 }
 
 .text-input textarea {
-  height: 250px;
+  height: 15.625rem;
   width: 100%;
   border: none;
   outline: none;
   resize: none;
   background: none;
   font-size: 1.125rem;
-  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem;
   border-radius: 5px;
+}
+
+.text-input textarea::placeholder {
+  color: #b7b6b6;
+}
+
+.controls, li, .icons, .icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 0.75rem 0.9375rem;
+}
+
+.controls .row .icons {
+  width: 38%;
+}
+
+.controls .row .icons i {
+  width: 3.125rem;
+  color: #adadad;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
 }
