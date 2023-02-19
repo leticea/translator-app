@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Tradutor de linguagens.
+Tradutor de línguas.
 
 Aula do canal [AsmrProg](https://www.youtube.com/watch?v=WGRIMv790UI)
 
